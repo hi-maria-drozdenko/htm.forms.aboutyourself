@@ -1,0 +1,57 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>About yourself</title>
+        </head>
+        <body>
+            <h2>About yourself:</h2>
+<form>
+    <label for="name">Your name:</label>
+    <textarea id="name" name="name" rows="1.5" cols="20">
+    </textarea>
+</form>
+<form>
+    <label for="age">How old are you?</label>
+    <input type="age" list="age" id="age" name="age">
+    <datalist id="age">
+        <option value="18">18</option>
+        <option value="19">19</option>  
+        <option value="20">20</option> 
+    </datalist>
+</form>
+<form>
+    <label for="city">Where are you live now?</label>
+    <select id="city" name="city">
+        <option value="Kyiv">Kyiv</option>
+        <option value="Lviv">Lviv</option>
+    </select>
+    <section class="gender"> 
+        <br> 
+        <span>Your gender:</span>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="" id="male" value="male">
+        <label for="unspecified">unspecified</label>
+      </section>
+    <section class="level"><br>
+        <label for="level">Which level of English do you have?</label>
+        <br> 
+        <span>Beginner</span>
+        <input type="range" name="level" id="level" value="3" min="1" max="5">
+        <span>Advanced</span> 
+    </section> 
+    <form>
+        <label for="email">Your Email:</label>
+        <textarea id ="email" name="email" rows="5" cols="30">
+        </textarea>
+    </form>
+    <br>
+      <section class="submission">
+        <input type="submit" value="Submit">
+      </section>
+    <br>
+</form>
+        </body>
+    </html>
